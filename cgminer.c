@@ -2237,6 +2237,11 @@ static char *opt_verusage_and_exit(const char *extra)
         "sp30 "
 #endif
 
+#ifdef USE_GEKKO
+		"Gekko "
+#endif
+
+
 		"mining support.\n"
 		, packagename);
 	printf("%s", opt_usage(opt_argv0, extra));
