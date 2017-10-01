@@ -221,7 +221,9 @@ static const char *DEVICECODE = ""
 #ifdef USE_SP30
       "S30 "
 #endif
-
+#ifdef USE_GEKKO
+			"GSD"
+#endif
 
 			"";
 
